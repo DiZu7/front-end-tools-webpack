@@ -3,7 +3,14 @@
     [
       "@babel/preset-env",
       {
-        "targets": "< 1.0 %"
+        "targets": {
+          "chrome": "109",
+          "ie": "10",
+          "edge": "106",
+          "safari": "16.1",
+          "firefox": "107",
+          "opera": "90"
+        }
       }
     ]
   ]
