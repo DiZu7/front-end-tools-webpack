@@ -1,4 +1,4 @@
-import calcExpression, { mult, sum } from './calculator/array-flat.js';
+import calcExpression, { mult, sum } from './calculator/index.js';
 import { printProfile } from './profile/index.js';
 import fetchUser from './profile/gateway.js';
 import './polyfills/array-flat.js';
