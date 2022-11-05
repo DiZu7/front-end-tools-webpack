@@ -1,5 +1,3 @@
-const webpack = require('webpack');
-
 module.exports = (env, argv) => {
   const isProduction = argv.mode === 'production';
   const config = {
